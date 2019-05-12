@@ -5,7 +5,7 @@ public class HWLesOne {
         String myName = "Evgen";
         int myAge = 36;
         float myWeight = 93.5f;
-
+//HWLesOne
         System.out.println("subTask - 1 \n" + "Имя = " + myName + ", " + "Возраст = " + myAge + ", " + "Вес = " + myWeight);
 
         // subTask - 2
