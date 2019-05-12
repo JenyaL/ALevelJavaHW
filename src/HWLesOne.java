@@ -9,23 +9,23 @@ public class HWLesOne {
         System.out.println("subTask - 1 \n" + "Имя = " + myName + ", " + "Возраст = " + myAge + ", " + "Вес = " + myWeight);
 
         // subTask - 2
-        int valyeA = 1;
-        int valyeB = 6;
+        int valueA = 1;
+        int valueB = 6;
 
-        System.out.println("subTask - 2.1 \n" + "a = " + valyeA + "\n" + "b = " + valyeB);
-        int valyeC = valyeA;
-        valyeA = valyeB;
-        valyeB = valyeC;
+        System.out.println("subTask - 2.1 \n" + "a = " + valueA + "\n" + "b = " + valueB);
+        int valueC = valueA;
+        valueA = valueB;
+        valueB = valueC;
 
-        System.out.println("subTask - 2.2 \n" + "a = " + valyeA + "\n" + "b = " + valyeB);
+        System.out.println("subTask - 2.2 \n" + "a = " + valueA + "\n" + "b = " + valueB);
 
         // subTask - 3
-        valyeA = valyeA + valyeB;
-        valyeB = valyeB - valyeA;
-        valyeB = -valyeB;
-        valyeA = valyeA - valyeB;
+        valueA = valueA + valueB;
+        valueB = valueB - valueA;
+        valueB = -valueB;
+        valueA = valueA - valueB;
 
-        System.out.println("subTask - 3 \n" + "a = " + valyeA + "\n" + "b = " + valyeB);
+        System.out.println("subTask - 3 \n" + "a = " + valueA + "\n" + "b = " + valueB);
 
 
     }
