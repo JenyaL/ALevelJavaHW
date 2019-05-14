@@ -26,7 +26,5 @@ public class HWLesOne {
         valueA = valueA - valueB;
 
         System.out.println("subTask - 3 \n" + "a = " + valueA + "\n" + "b = " + valueB);
-
-
     }
 }
