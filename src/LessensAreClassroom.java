@@ -25,7 +25,7 @@ public class LessensAreClassroom {
 
         str.split(" ", 1); // ищет слова в строке для передачи в МАССИВ !!!
 
-
-
     }
+
+
 }
