@@ -12,9 +12,9 @@
 
 ### IntelliJ IDEA ###
 .idea
-*.iws
+out
+*.class
 *.iml
-*.ipr
 
 
 ### NetBeans ###
