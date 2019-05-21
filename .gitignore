@@ -15,7 +15,7 @@
 out
 *.class
 *.iml
-###com###
+
 
 ### NetBeans ###
 /nbproject/private/
