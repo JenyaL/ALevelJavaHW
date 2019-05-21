@@ -15,7 +15,7 @@ public class LessensAreClassroom {
         System.out.println(str.concat("- + NEW" + " склейка"));
 
         str.substring(1); // игнорирует до нужного символа
-        System.out.println(str.substring(5) + " игнорирует до нужного символа") ;
+        System.out.println(str.substring(5) + " игнорирует до нужного символа");
 
         str.equalsIgnoreCase("R"); // игнорирует значение (false or true)
         System.out.println(str.equalsIgnoreCase("QWERTY_YTREWQ") + " игнорирует значение");
@@ -28,6 +28,5 @@ public class LessensAreClassroom {
         str.replace("c", ""); // понять!!!
 
     }
-
 
 }
