@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="673aa818-ab15-44d0-bffa-84acada8f723" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/HWLesTwo.java" afterDir="false" />
+    <list default="true" id="efeb42c5-9b5b-4736-90f0-123d9460f19a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/HWLessThree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/HomeWorkJava/LessensAreClassroom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HomeWorkJava/LessensAreClassroom.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LessensAreClassroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LessensAreClassroom.java" afterDir="false" />
@@ -18,30 +19,39 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/HWLesOne.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LessensAreClassroom.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
+            <state relative-caret-position="322">
               <caret line="28" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/HWLessThree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HWLesTwo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="112" column="56" selection-start-line="112" selection-start-column="56" selection-end-line="112" selection-end-column="56" />
+            <state relative-caret-position="152">
+              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="14" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/HWLesOne.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="146">
+              <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -63,8 +73,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/HWLesOne.java" />
         <option value="$PROJECT_DIR$/src/LessTwo.java" />
-        <option value="$PROJECT_DIR$/src/LessensAreClassroom.java" />
         <option value="$PROJECT_DIR$/src/HWLesTwo.java" />
+        <option value="$PROJECT_DIR$/src/LessensAreClassroom.java" />
+        <option value="$PROJECT_DIR$/src/HWLessThree.java" />
       </list>
     </option>
   </component>
@@ -86,16 +97,11 @@
           <expand>
             <path>
               <item name="HomeWorkJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="A-level" type="462c0819:PsiDirectoryNode" />
+              <item name="ALevelJavaHW" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HomeWorkJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="A-level" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HomeWorkJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="A-level" type="462c0819:PsiDirectoryNode" />
+              <item name="ALevelJavaHW" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -132,9 +138,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HWLesTwo">
+  <component name="RunManager" selected="Application.HWLessThree">
     <configuration name="HWLesTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HWLesTwo" />
+      <module name="HomeWorkJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HWLessThree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HWLessThree" />
       <module name="HomeWorkJava" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -158,6 +171,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HWLessThree" />
         <item itemvalue="Application.HWLesTwo" />
         <item itemvalue="Application.LessensAreClassroom" />
       </list>
@@ -168,7 +182,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="673aa818-ab15-44d0-bffa-84acada8f723" name="Default Changelist" comment="" />
+      <changelist id="efeb42c5-9b5b-4736-90f0-123d9460f19a" name="Default Changelist" comment="" />
       <created>1557523020221</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -186,10 +200,10 @@
     <option name="totallyTimeSpent" value="19542000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1280" height="934" extended-state="6" />
+    <frame x="0" y="23" width="1318" height="745" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27471638" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2531348" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -199,12 +213,12 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32670808" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32618684" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39969373" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32670808" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32618684" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32924962" />
@@ -275,24 +289,34 @@
     </option>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/HWLesOne.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
+        <state relative-caret-position="146">
           <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LessensAreClassroom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HWLesTwo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="112" column="56" selection-start-line="112" selection-start-column="56" selection-end-line="112" selection-end-column="56" />
+        <state relative-caret-position="152">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LessensAreClassroom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HWLessThree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
         </state>
       </provider>
     </entry>
