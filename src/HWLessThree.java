@@ -36,48 +36,29 @@ public class HWLessThree {
         весь свой запас вывести в консоль: «Я проиграл, ты знаешь больше
         городов».*/
         String cityes = "Москва, Амстердам, Минск, Курск, Киев";
-
+        int nextChar = 0;
         String[] newArrCity = cityes.split(", ", 0);
         System.out.println("Игра началась!!!");
+        String messageOne = "Введите город, который начинается с последней буквы города - ";
         Scanner scanUser = new Scanner(System.in);
-        Random random = new Random();
-        String word = newArrCity[random.nextInt(newArrCity.length)];
-        int i = 0;
-        int a = 0;
+        System.out.println(messageOne + newArrCity[1]);
+        //newArrCity[1] = "";
+        Scanner enterSity = new Scanner(System.in);
+        String scanSityYou = enterSity.next();
+        String[] wordUser = scanSityYou.split("", 0);
 
-        System.out.println("перыое слово " + word + "\nнапиши город который начинается на последнюю букву текущего названия");
-        String line = scanUser.nextLine();
+        System.out.println(wordUser[wordUser.length - 1]); //последний символ введённого слова
 
-        String[] arrLine = line.split("", 0);
+        // ищем слово в массиве которое начинается на первую букву введённого слова
+        for (int i = 0; i < newArrCity.length; i++) {
 
-
-        if (word.endsWith(arrLine[0])) {
-            System.out.println("Отлично!!!");
-            for (String num : newArrCity) {
-                if (newArrCity[i].equals(word)) {
-                    newArrCity[i] = "";
-                    System.out.println(newArrCity[i] + "NULL");
-                }
-                i++;
+            // сравниваем символы
+            if (wordUser[wordUser.length - 1].equalsIgnoreCase(String.valueOf(newArrCity[i].charAt(0)))) {
+                System.out.println(newArrCity[nextChar]);
+                newArrCity[nextChar] = "";
+                break;
             }
-        } else {
-            System.out.println("не тупи!!!");
-        }
-        System.out.println("Напиши город:");
-        String nameCity = scanUser.next();
-        for (String num : newArrCity) {
-            if (nameCity.equals(newArrCity[a])) {
-                newArrCity[a] = "";
-                System.out.println(newArrCity[i] + "NULL");
-            }
-            a++;
-        }
-
-
-        for (String num : newArrCity) {
-
-            System.out.println(newArrCity[a]);
-            a++;
+            System.out.println(newArrCity[i]);
         }
 
     }

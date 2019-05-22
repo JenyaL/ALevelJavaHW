@@ -15,7 +15,7 @@ public class LessensAreClassroom {
         str.substring(1); // игнорирует до нужного символа
         System.out.println(str.substring(5) + " игнорирует до нужного символа");
 
-        str.equalsIgnoreCase("R"); // игнорирует значение (false or true)
+        str.equalsIgnoreCase("R"); // сравнивает данную строку с другой строкой, игнорируя регистр (false or true)
         System.out.println(str.equalsIgnoreCase("QWERTY_YTREWQ") + " игнорирует значение");
 
         str.endsWith("R"); // проверяет на что заканчивается (false or true)
