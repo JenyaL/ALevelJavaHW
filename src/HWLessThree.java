@@ -42,24 +42,26 @@ public class HWLessThree {
         String messageOne = "Введите город, который начинается с последней буквы города - ";
         Scanner scanUser = new Scanner(System.in);
         System.out.println(messageOne + newArrCity[1]);
-        //newArrCity[1] = "";
+
         Scanner enterSity = new Scanner(System.in);
         String scanSityYou = enterSity.next();
         String[] wordUser = scanSityYou.split("", 0);
 
         System.out.println(wordUser[wordUser.length - 1]); //последний символ введённого слова
 
+        // Проверка правельности ввода слова
+
+
+            newArrCity[1] = "null";
         // ищем слово в массиве которое начинается на первую букву введённого слова
         for (int i = 0; i < newArrCity.length; i++) {
-
             // сравниваем символы
             if (wordUser[wordUser.length - 1].equalsIgnoreCase(String.valueOf(newArrCity[i].charAt(0)))) {
-                System.out.println(newArrCity[nextChar]);
-                newArrCity[nextChar] = "";
+                System.out.println("Играем дальше...");
+                newArrCity[nextChar] = "null";
                 break;
             }
-            System.out.println(newArrCity[i]);
         }
-
+        System.out.println("Игра закончена!");
     }
 }
