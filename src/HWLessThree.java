@@ -35,33 +35,44 @@ public class HWLessThree {
         несколько раз. Если компьютер не знает города на букву, либо исчерпал
         весь свой запас вывести в консоль: «Я проиграл, ты знаешь больше
         городов».*/
-        String cityes = "Москва, Амстердам, Минск, Курск, Киев";
-        int nextChar = 0;
-        String[] newArrCity = cityes.split(", ", 0);
-        System.out.println("Игра началась!!!");
-        String messageOne = "Введите город, который начинается с последней буквы города - ";
-        Scanner scanUser = new Scanner(System.in);
-        System.out.println(messageOne + newArrCity[1]);
+        String citys = "Москва, Амстердам, Минск, Курск, Киев";
 
-        Scanner enterSity = new Scanner(System.in);
-        String scanSityYou = enterSity.next();
-        String[] wordUser = scanSityYou.split("", 0);
+        // преоброзовать строку в массив
+        String[] arrayCity = citys.split(", ", 0);
 
-        System.out.println(wordUser[wordUser.length - 1]); //последний символ введённого слова
+        // создание массив адля хранения использованных слов
+        int sizeArrayUseWord = 1;
+        String[] arrayUseWord = new String[sizeArrayUseWord];
 
-        // Проверка правельности ввода слова
+        // начало Игры
+        System.out.println("Давай поиграем в ‘Города’. Ты первый называй!");
 
 
-            newArrCity[1] = "null";
-        // ищем слово в массиве которое начинается на первую букву введённого слова
-        for (int i = 0; i < newArrCity.length; i++) {
-            // сравниваем символы
-            if (wordUser[wordUser.length - 1].equalsIgnoreCase(String.valueOf(newArrCity[i].charAt(0)))) {
-                System.out.println("Играем дальше...");
-                newArrCity[nextChar] = "null";
-                break;
+        for (int i = 0; i < arrayCity.length; i++) {
+            // ввод в консоль слова
+            Scanner scanEnteredConsole = new Scanner(System.in);
+            String consoleIn = scanEnteredConsole.next();
+
+            // полцчаем последнюю букву слова из консоли
+            char charWordFromConsoleIn = consoleIn.charAt(consoleIn.length() - 1);
+            String strWordFromConsoleIn = String.valueOf(charWordFromConsoleIn);
+
+            // добавление слова в архивный массив
+            arrayUseWord[i] = strWordFromConsoleIn;
+
+            // ищем первую букву всех слов в масииве
+            String strWordFromArrayCity = arrayCity[i];
+            strWordFromArrayCity.charAt(0);
+
+            // ищем слово которое начинается на последнюю букву слова из консоли
+            if (strWordFromConsoleIn.equalsIgnoreCase(String.valueOf(strWordFromArrayCity.charAt(0)))) {
+
+                System.out.println(strWordFromConsoleIn + " " + strWordFromArrayCity.charAt(0));
+
+
             }
+
+
         }
-        System.out.println("Игра закончена!");
     }
 }
