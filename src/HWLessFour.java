@@ -6,7 +6,7 @@ public class HWLessFour {
     public static void main(String[] args) {
 
         // Пройдитесь по циклу от 1 до 100 и выведите все четные числа.
-       int q = 0;
+        int q = 0;
         while (q <= 100) {
             if (q % 2 == 0) {
                 System.out.println(q);
@@ -31,6 +31,23 @@ public class HWLessFour {
         String[] strIn = strScanIn.split(" ", 0);
         for (int i = strIn.length; i > 0; i--) {
             System.out.print(strIn[i - 1] + " ");
+        }
+
+        // Additional Task -  число Фибоначи
+        int numberFibo = 4181;
+        int numberFirst = 1;
+        int nuberNext = 1;
+        int nuberEnd = 0;
+        int sizeChar = 0;
+        while (numberFibo > nuberEnd) {
+            nuberEnd = numberFirst + nuberNext;
+            numberFirst = nuberNext;
+            nuberNext = nuberEnd;
+            sizeChar++;
+            System.out.print(nuberEnd + ", ");
+            if (nuberEnd == numberFibo) {
+                System.out.print("операция номер " + sizeChar + " на которой было достигнуто " + numberFibo);
+            }
         }
     }
 }
