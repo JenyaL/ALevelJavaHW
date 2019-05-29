@@ -10,7 +10,7 @@ public class ClassRoomLesFiive {
         newRobos[1] = info1;
         newRobos[2] = info2;
 
-        for (int i = 0; i < newRobos.length; i++){
+        for (int i = 0; i < newRobos.length; i++) {
             newRobos[i].soutOne();
         }
     }
@@ -37,7 +37,7 @@ class Robots {
     int size;
 
     void soutOne() {
-        System.out.println(name + " " + firstName+ " " + size);
+        System.out.println(name + " " + firstName + " " + size);
     }
 
     void soutTwo() {
