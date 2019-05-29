@@ -1,4 +1,4 @@
-public class HWLesFiive {
+public class ClassRoomLesFiive {
 
     public static void main(String[] args) {
         Robots info = new Robots("Roma", "Dasha", 9999);
