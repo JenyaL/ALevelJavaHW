@@ -19,7 +19,7 @@ public class HWLessFivePartTwo {
 
 
         for (int i = 0; i < arraPoints.length; i++) {
-            arraPoints[i].sumPoints();
+            arraPoints[i].sumPoint();
         }
     }
 }
@@ -39,7 +39,7 @@ class PointS {
         System.out.println(x + " " + y);
     }
 
-    void sumPoints() {
+    void sumPoint() {
         c = x + y;
         if (0 == (c % 2)) {
             System.out.println(x + " " + y);
