@@ -1,4 +1,4 @@
-package HWLessSix;
+package HWLessSeven;
 
 public class TaskTwoSecondClass extends TaskTwoFirstClass {
     @Override

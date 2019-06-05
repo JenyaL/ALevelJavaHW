@@ -1,4 +1,4 @@
-package HWLessSeven;
+package LessSeven;
 
 public class CheckBox extends Element{
     private int size;

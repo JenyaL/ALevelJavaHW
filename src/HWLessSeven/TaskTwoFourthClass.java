@@ -1,4 +1,4 @@
-package HWLessSix;
+package HWLessSeven;
 
 public class TaskTwoFourthClass extends TaskTwoFirstClass  {
 

@@ -1,4 +1,4 @@
-package HWLessSeven;
+package LessSeven;
 
 public class ImputFileld extends Element {
     private String valye;

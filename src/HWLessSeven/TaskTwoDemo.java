@@ -1,4 +1,4 @@
-package HWLessSix;
+package HWLessSeven;
 
 public class TaskTwoDemo extends TaskTwoFirstClass {
     public static void main(String[] args) {
