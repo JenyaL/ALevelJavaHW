@@ -19,15 +19,17 @@ public class SettingsFigure implements Info {
         this.param = paramFigure;
     }
 
-    void figureArea(){}
+    void figureArea() {
+    }
 
-    void perimeterFigure(){}
+    void perimeterFigure() {
+    }
 
 
     @Override
     public void info() {
-        System.out.println("Фигура - " + name +"\n"
-        + "Цвет фигуры - " + color + "\n"
-        + "Исходный параметр - " + param);
+        System.out.println("Фигура - " + name + "\n"
+                + "Цвет фигуры - " + color + "\n"
+                + "Исходный параметр - " + param);
     }
 }
