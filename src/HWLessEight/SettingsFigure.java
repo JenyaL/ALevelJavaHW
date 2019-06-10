@@ -1,8 +1,8 @@
 package HWLessEight;
 
-public class SettingsFigure  implements Info{
-    private String color;
+public class SettingsFigure implements Info {
     private String name;
+    private String color;
     int param;
 
     public int getParam() {
@@ -19,9 +19,15 @@ public class SettingsFigure  implements Info{
         this.param = paramFigure;
     }
 
-    @Override
-    public void info(){
-        System.out.println("www");
-    }
+    void figureArea(){}
 
+    void perimeterFigure(){}
+
+
+    @Override
+    public void info() {
+        System.out.println("Фигура - " + name +"\n"
+        + "Цвет фигуры - " + color + "\n"
+        + "Исходный параметр - " + param);
+    }
 }
