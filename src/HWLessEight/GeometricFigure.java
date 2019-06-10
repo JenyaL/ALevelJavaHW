@@ -37,7 +37,6 @@ public class GeometricFigure {
             void perimeterFigure() {
                 float pFl = getParam() * 4;
                 System.out.println("Периметр квадрата - " + pFl);
-
             }
         };
         square.SettingsFigure("красный", "Квадрат", 3);
