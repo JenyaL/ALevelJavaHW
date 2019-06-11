@@ -33,3 +33,4 @@ public class SettingsFigure implements Info {
                 + "Исходный параметр - " + param);
     }
 }
+
