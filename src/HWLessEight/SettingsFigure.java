@@ -1,9 +1,28 @@
 package HWLessEight;
 
+import java.util.Scanner;
+
 public class SettingsFigure implements Info {
+
+
     private String name;
     private String color;
     int param;
+
+    void Scan() {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Введите число: ");
+        param = scan.nextInt();
+
+            try {
+                if (0 <= param) {
+                    int y = param % 0;
+                }
+            } catch (ArithmeticException e) {
+                System.out.println("Число меньше либо равно нулю!");
+            }
+
+    }
 
     public int getParam() {
         return param;
@@ -13,10 +32,9 @@ public class SettingsFigure implements Info {
         this.param = param;
     }
 
-    void SettingsFigure(String colorFigure, String nameFigure, int paramFigure) {
+    void SettingsFigure(String colorFigure, String nameFigure) {
         this.color = colorFigure;
         this.name = nameFigure;
-        this.param = paramFigure;
     }
 
     void figureArea() {
@@ -24,7 +42,6 @@ public class SettingsFigure implements Info {
 
     void perimeterFigure() {
     }
-
 
     @Override
     public void info() {

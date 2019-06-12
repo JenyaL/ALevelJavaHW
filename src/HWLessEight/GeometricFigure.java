@@ -4,12 +4,13 @@ package HWLessEight;
 public class GeometricFigure {
 
     public static void main(String[] args) {
+
         SettingsFigure circle = new SettingsFigure() {
             @Override
             void figureArea() {
                 double s = Math.PI * (getParam() * getParam());
                 float fl = (float) s;
-                System.out.println("с круга - " + fl);
+                System.out.println("Площадь круга - " + fl);
             }
 
             @Override
@@ -19,7 +20,8 @@ public class GeometricFigure {
                 System.out.println("Периметр круга - " + pFl);
             }
         };
-        circle.SettingsFigure("белый", "Круг", 3);
+        circle.Scan();
+        circle.SettingsFigure("белый", "Круг");
         circle.info();
         circle.figureArea();
         circle.perimeterFigure();
@@ -39,7 +41,7 @@ public class GeometricFigure {
                 System.out.println("Периметр квадрата - " + pFl);
             }
         };
-        square.SettingsFigure("красный", "Квадрат", 3);
+        square.SettingsFigure("красный", "Квадрат");
         square.info();
         square.figureArea();
         square.perimeterFigure();
