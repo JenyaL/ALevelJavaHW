@@ -1,5 +1,6 @@
 package HWLessEight;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class SettingsFigure implements Info {
@@ -10,18 +11,12 @@ public class SettingsFigure implements Info {
     int param;
 
     void Scan() {
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Введите число: ");
-        param = scan.nextInt();
-
-            try {
-                if (0 <= param) {
-                    int y = param % 0;
-                }
-            } catch (ArithmeticException e) {
-                System.out.println("Число меньше либо равно нулю!");
-            }
-
+        try {
+            Scanner scan = new Scanner(System.in);
+            System.out.println("Введите число: ");
+            param = scan.nextInt();
+        } catch (InputMismatchException e) {
+            System.out.println("Допускается ввод цифр больше 0!"); Scan();}
     }
 
     public int getParam() {

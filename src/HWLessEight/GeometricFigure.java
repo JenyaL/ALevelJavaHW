@@ -1,6 +1,8 @@
 package HWLessEight;
 
 
+import java.util.InputMismatchException;
+
 public class GeometricFigure {
 
     public static void main(String[] args) {
@@ -8,9 +10,16 @@ public class GeometricFigure {
         SettingsFigure circle = new SettingsFigure() {
             @Override
             void figureArea() {
-                double s = Math.PI * (getParam() * getParam());
-                float fl = (float) s;
-                System.out.println("Площадь круга - " + fl);
+                for (int i = 0; i <= 1; i++)
+                if (0 < getParam()) {
+                    double s = Math.PI * (getParam() * getParam());
+                    float fl = (float) s;
+                    System.out.println("Площадь круга - " + fl);
+                } else if (getParam() <= 0) {
+                    i = 0;
+                    System.out.println("Допускается ввод цифр больше 0!");
+                    Scan();
+                }
             }
 
             @Override
@@ -21,12 +30,12 @@ public class GeometricFigure {
             }
         };
         circle.Scan();
-        circle.SettingsFigure("белый", "Круг");
-        circle.info();
+        /*circle.SettingsFigure("белый", "Круг");
+        circle.info();*/
         circle.figureArea();
-        circle.perimeterFigure();
+        //circle.perimeterFigure();
 
-        System.out.println("\n");
+        /*System.out.println("\n");
 
         SettingsFigure square = new SettingsFigure() {
             @Override
@@ -44,7 +53,7 @@ public class GeometricFigure {
         square.SettingsFigure("красный", "Квадрат");
         square.info();
         square.figureArea();
-        square.perimeterFigure();
+        square.perimeterFigure();*/
 
     }
 
