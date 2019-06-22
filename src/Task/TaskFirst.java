@@ -25,14 +25,12 @@ public class TaskFirst {
         for (Object w : symbArrlist) {
             int finishElement = symbArrlist.size();
             for (int i = symbArrlist.size(); i > 0; i--) {
-                if (symbArrlist.get(startElemetin).equals(symbArrlist.get(finishElement - 1))) {
                     //  проверяю есть ли такой эллесент в ArrayList
                         if (newArrayListUniqueChar.contains(symbArrlist.get(startElemetin))) {
                             // если элемент есть, то ничего не делаю
                         } else {
                             // если эллемента нет, то добавляю его в ArrayList
                             newArrayListUniqueChar.add(symbArrlist.get(startElemetin));
-                        }
                 }
                 finishElement--;
             }
