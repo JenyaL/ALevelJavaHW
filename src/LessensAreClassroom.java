@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class LessensAreClassroom {
     public static void main(String[] args) {
 
@@ -24,6 +26,10 @@ public class LessensAreClassroom {
         str.split(" ", 1); // ищет слова в строке для передачи в МАССИВ !!!
 
         str.replace("c", ""); // понять!!!
+
+
+        char[] ff = str.toCharArray();
+        Arrays.sort(ff);
 
 
 

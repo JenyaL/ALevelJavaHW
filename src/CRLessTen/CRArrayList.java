@@ -63,9 +63,6 @@ public class CRArrayList {
 
         System.out.println(map.containsValue("one"));
 
-
-
-
     }
 
     void intArM(List<Integer> qwe) {
